@@ -16,7 +16,7 @@ Brainfuck programming language made more hardcore and minimalistic
 
 <b>Ultrafuck</b> is an modified version of legendary Brainfuck (BF) esoterical programming language. It has very minimalistic syntax and supports a few commands (and comments too).
 
-Original Brainfuck has been created by Urban Müller in 1993 year, inspired by FALSE programming language. It has about 8 commands that makes much harder programming in Brainfuck (unlike other languages). Brainfuck is very popular language nowadays - it has 10+ active forks and modifications. Ultrafuck project is one of these :)
+Original Brainfuck has been created by Urban Müller in 1993 year, inspired by FALSE programming language. It has about 8 commands that makes much harder programming in Brainfuck (unlike other languages). Brainfuck is very popular language nowadays - it has 10+ active forks and modifications. Ultrafuck project is one of these :smile:
 
 In Brainfuck language user needs to control one big memory array, increase/decrease memory cell values, write data into console and do other stuff. In Ultrafuck user needs to select some Brainfuck command by... other commands. That's why Ultrafuck is much harder in coding, as I think.
 
@@ -108,7 +108,9 @@ Ultrafuck project is licensed under the terms of **MIT License**. See [LICENSE](
 * **Urban Müller**\
 Original Brainfuck author
 * **[nlasted](https://github.com/nlasted)**\
-Helped with switching to Linux :)
+Helped with switching to Linux :penguin:
+
+If you have noticed some bugs and errors when working with the program, immediately contact me! I will be glad to help you and fix program code bugs :wink:
 
 <br><br>
 

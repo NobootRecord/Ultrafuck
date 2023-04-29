@@ -110,7 +110,7 @@ Original Brainfuck author
 * **[nlasted](https://github.com/nlasted)**\
 Helped with switching to Linux :penguin:
 
-If you have noticed some bugs and errors when working with the program, immediately contact me! I will be glad to help you and fix program code bugs :wink:
+### If you have noticed some bugs and errors when working with the program, immediately contact me! I will be glad to help you and fix program code bugs :wink:
 
 <br><br>
 

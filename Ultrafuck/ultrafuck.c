@@ -4,7 +4,7 @@ This file is a part of Ultrafuck project.
 
 This software is provided "As Is", without any warranties of any kind. You are using this software at your own risk. See LICENSE file for more details.
 
-Copyright (c) Ivan Movchan <NobootRecord@mail.ru>, 2023
+Copyright (c) Ivan Movchan <NobootRecord@outlook.com>, 2023
 https://nobootrecord.github.io
 
 */
@@ -19,8 +19,7 @@ int main(int argc, char** argv)
     if (argc < 2)
     {
         printver;
-        printf("Usage: uf [filename] <arguments>\n\n[filename]\t\tUltrafuck source code filename\n<arguments>\t\tAdditional arguments\n--> (no arguments)\tShow help message (you are reading now)\n--> -q / --quiet\tQuiet mode (no messages, program output only)\n\n");
-        printf("Copyright (c) Ivan Movchan, 2023 / https://nobootrecord.github.io / NobootRecord@mail.ru\nThis is open source software is licensed under the terms of MIT License. See LICENSE file for more details...\n");
+        printf("Usage: uf [filename] <arguments>\n\n[filename]\t\tUltrafuck source code filename\n<arguments>\t\tAdditional arguments\n--> (no arguments)\tShow help message (you are reading now)\n--> -q / --quiet\tQuiet mode (no messages, program output only)\n--> -v / --version\tShow Ultrafuck version\n");
         return 0;
     };
 
@@ -28,6 +27,17 @@ int main(int argc, char** argv)
 
     bool quietMode = false;
     if (argc > 2) quietMode = (strequ(argv[2], "-q") || strequ(argv[2], "--quiet"));
+
+    // -v / --version shows Ultrafuck version
+
+    if (strequ(argv[1], "-v") || strequ(argv[1], "--version"))
+    {
+        printver;
+        printf("Built on %s %s with gcc version %s\n\n", __DATE__, __TIME__, __VERSION__);
+        printf("Original idea by Urban Muller, 1993\n");
+        printf("Ultrafuck dialect by Ivan Movchan, 2023\n\nGitHub: https://github.com/NobootRecord/Ultrafuck\nWeb: https://nobootrecord.github.io\nE-mail: NobootRecord@outlook.com\n\nLicense: The Unlicense (see LICENSE file)\n");
+	return 0;
+    };
 
     // Print program version
 

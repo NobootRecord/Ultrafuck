@@ -8,6 +8,8 @@
 
 </div>
 
+<br>
+
 There is one integer value called cmdIndex (in example). By entering **>** or **<** user increases/decreases its value (like switching TV sound volume lol). By entering ~ user resets cmdIndex value to zero. By entering ! command user executes some Brainfuck command depending on this array:
 
 * **NOP**\

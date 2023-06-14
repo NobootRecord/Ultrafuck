@@ -59,7 +59,7 @@ If you have any problems with compiling Ultrafuck on your platform, please conta
 
 # 0x04. License
 
-Ultrafuck project is licensed under the terms of **The Unlicense**. See [LICENSE](LICENSE) file for more info.
+Ultrafuck project is licensed under the terms of **MIT License**. See [LICENSE](LICENSE) file for more info.
 
 You can do with Ultrafuck what the hell you want. I do not care about this project too much :)
 

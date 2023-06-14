@@ -24,7 +24,7 @@ In Brainfuck language user needs to control one big memory array, increase/decre
 
 # 0x01. How does it work?
 
-See README2 for more details.
+See [README2](README2.md) for more details. Read at your own risk.
 
 <br>
 

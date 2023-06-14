@@ -78,3 +78,5 @@ You can do with Ultrafuck what the hell you want. I do not care about this proje
 Copyright &copy; 2023. No rights reserved.
 
 <br><br>
+
+<img src="img/demo.gif" alt="Ultrafuck demo (GIF)" title="Ultrafuck demo (GIF)">

@@ -1,82 +1,65 @@
-<div align="center">
+# ![](img/logo.png) Ultrafuck
 
-<img src="img/logo.png" alt="Ultrafuck" title="Ultrafuck">
+### Brainfuck programming language made more hardcore
+### Brought to you by: [NobootRecord](https://github.com/NobootRecord)
+### Platform: Win32
+### Status: ???
 
-# Ultrafuck
+* * *
 
-Brainfuck programming language made more hardcore and minimalistic
+### What is this?
 
-[Русская версия](README.ru.md)
+Ultrafuck is an esoteric programming language based on very famous Brainfuck programming language.\
+Brainfuck is known for its minimalistic syntax and a few count of commands, while Ultrafuck is (not) known for its hardcore character.\
+Actually, in Ultrafuck you have to execute the same Brainfuck commands (+ some extras Ultrafuck-only) by... executing another commands. It is like switching TV channels, is not it?
 
-</div>
+I do not know what the hell did I create **this**, but okay.
 
-<br><br>
+### Usage
 
-# 0x00. What is this?
+```Usage: uf [filename] [-c outfilename | -v] [-q]```
 
-<b>Ultrafuck</b> is an modified version of legendary Brainfuck (BF) esoterical programming language. It has very minimalistic syntax and supports a few commands (and comments too).
+### Coding
 
-Original Brainfuck has been created by Urban Müller in 1993 year, inspired by FALSE programming language. It has about 8 commands that makes much harder programming in Brainfuck (unlike other languages). Brainfuck is very popular language nowadays - it has 10+ active forks and modifications. Ultrafuck project is one of these :)
+```
+>		Next BF command
+<		Previous BF command
+!		Execute command
+~		Null
+[]		Loop
+{}		Endless Loop
 
-In Brainfuck language user needs to control one big memory array, increase/decrease memory cell values, write data into console and do other stuff. In Ultrafuck user needs to select some Brainfuck command by... other commands. That's why Ultrafuck is much harder in coding, as I think.
+BF commands:
 
+1:		Next memory cell
+2:		Previous memory cell
+3:		Increase memory cell value
+4:		Decrease memory cell value
+5:		Write memory cell value into console (as ASCII character)
+6:		Read memory cell value from keyboard (as ASCII character)
+7:		Set random memory cell value
+8:		Write memory cell value into console (as number)
+9:		Break (stop program execution)
+```
+
+See [this video (in Russian)](https://www.youtube.com/watch?v=V1bT8TtI78k&t=9s) to understand how does it all work.
+
+### Features
+
+* Written in pure C x86, can be easily recompiled for any platform
+* Lightweight and blazingly fast
+* ULTIMATE POWERED MEGA TURBO F\*\*KING SHITCODE!!!! (even I can't read it lol)
+* Licensed under the terms of [The Unlicense](LICENSE)
+* Sample Text
+* im bored аааыаыыааыаыаааы
+* Ошибка сегментирования (стек памяти сброшен на диск)
+
+### Screenshots
+
+![](img/hack.png)
+MAMA IM HACKERMAN
 <br>
 
-# 0x01. How does it work?
-
-See [README2](README2.md) for more details. Read at your own risk.
-
+![](img/demo.gif)
+Ultrafuck is live (GIF)
 <br>
-
-# 0x02. Usage
-
-Ultrafuck must be executed from command line in this format:
-
-&emsp;&emsp;```$UF_EXECUTABLE [filename] <arguments>```
-
-* ```$UF_EXECUTABLE```\
-Ultrafuck interpretator executable file.\
-**Linux:** ```./ue``` or ```./ue64```\
-**Windows:** ```ue.exe``` or ```ue64.exe```
-* ```[filename]```\
-Ultrafuck code filename. Recommended using UTF-8 encoded TXT files. You can also (just for fun) rename file to ```*.UF``` extension
-* ```<arguments>```\
-Additional command-line arguments. Currently supported:\
---- ```-q / --quiet```\
-Be quiet, do not display any additional messages - program output only.
-
-What about code editors, you can use even classic Windows Notepad, as Ultrafuck practically _does not_ have any syntax and looks like plain text.
-
-<br>
-
-# 0x03. Compile options
-
-Ultrafuck is currently being compiled and released using MinGW (the latest versions are recommended for usage). There is no different OS API used, so that's why the project can be easily compiled under any OS different from Windows. By the way, you can also use some other compilers like Visual C++, Tiny C Compiler, etc. - why not?
-
-If you have any problems with compiling Ultrafuck on your platform, please contact me immediately - I will help you as much as I can.
-
-<br>
-
-# 0x04. License
-
-Ultrafuck project is licensed under the terms of **The Unlicense**. See [LICENSE](LICENSE) file for more info.
-
-You can do with Ultrafuck what the hell you want. I do not care about this project too much :)
-
-<br>
-
-# 0x05. Authors
-
-* **Ivan Movchan**\
-		Ultrafuck author and maintainer
-
-* **Urban Müller**\
-		Original Brainfuck author
-	
-<br>
-	
-Copyright &copy; 2023. No rights reserved.
-
-<br><br>
-
-<img src="img/demo.gif" alt="Ultrafuck demo (GIF)" title="Ultrafuck demo (GIF)">

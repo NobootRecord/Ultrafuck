@@ -1,9 +1,14 @@
-# ![](img/logo.png) Ultrafuck
+<div align="center">
+
+![](img/logo.png)
+# Ultrafuck
 
 ### Brainfuck programming language made more hardcore
 ### Brought to you by: [NobootRecord](https://github.com/NobootRecord)
 ### Platform: Win32
 ### Status: ???
+
+</div>
 
 * * *
 
@@ -56,6 +61,8 @@ See [this video (in Russian)](https://www.youtube.com/watch?v=V1bT8TtI78k&t=9s) 
 
 ### Screenshots
 
+<div align="center">
+  
 ![](img/hack.png)
 MAMA IM HACKERMAN
 <br>
@@ -63,3 +70,5 @@ MAMA IM HACKERMAN
 ![](img/demo.gif)
 Ultrafuck is live (GIF)
 <br>
+
+</div>
